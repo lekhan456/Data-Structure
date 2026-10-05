@@ -35,7 +35,7 @@ char *reversePrefix(char *word, char ch)
 
 int main()
 {
-    char word[] = "abcdef";
+    char word[] = "abcdefd";
     char ch = 'd';
 
     printf("Result: %s\n", reversePrefix(word, ch));
